@@ -46,6 +46,7 @@ header p{
 main{
     width: 70vw;
     max-width: 690px;
+    min-width: 300px;
     margin: auto;
     padding-left: 10px;
     padding-top: 30px;
