@@ -2,6 +2,10 @@ function entrar(){
     window.location = "lista-produtos.html";
 }
 
+function home(){
+    window.location = "index.html";
+}
+
 function produto({classe,sabor,situacao}){
     window.location = "pagina-produto.html";
 }

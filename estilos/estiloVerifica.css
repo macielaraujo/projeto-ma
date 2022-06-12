@@ -10,6 +10,7 @@ body{
 
 #caixa{
     width: 400px;
+    min-width: 300px;
     height: 400px;
     padding: 20px;
     margin: auto;
@@ -46,8 +47,19 @@ div h3{
 }
 
 img{
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100px;
     border-radius: 100px;
     border: 2px solid #ffd4e5;
+}
+img:hover{
+    border-color: #a70000;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: #911c1c;
 }

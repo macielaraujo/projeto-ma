@@ -29,6 +29,18 @@ header{
     box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.301);
 }
 
+#logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #837d70;
+    display: block;
+    padding: 3px;
+} 
+#logo:hover{
+    border: 1px solid black;
+}
+
 header h1{
     margin-top: 0px;
     padding: 10px;
@@ -61,8 +73,8 @@ main{
     width: 250px;
     height: 300px;
     display: inline-block;
-    background-color: var(--fundoDiv1);
-    border: 2px solid var(--bordaDiv1);
+    background-color: #ffedc9;
+    border: 2px solid #f99c00;
     border-radius: 10px;
     padding: 10px;
     
@@ -72,16 +84,19 @@ main{
     font-size: 0.8em;
 }
 .produto img{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
+    border: 2px solid #ffd276;
     border-radius: 200px;
-    margin-left: 25px;
+    justify-content: center;
+    margin-top: 10px;
     margin-bottom: 10px;
     
 }
+
 .produto p{
-    margin: 2px;
-    color: #911c1c;
+    margin: 4px;
+    color: #f97300;
     font-weight: bold;
 }
 
