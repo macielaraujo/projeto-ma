@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    background-color: #ffb3bb92;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+#caixa{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color:white;
+    color: #911c1c;
+}
+
+div h3{
+    color: #a70000;
+}
+
+#escolha input{
+    padding: 5px;
+    margin: 10px;
+}
+#escolha label{
+    color: #bd8966;
+}
+
+#botao{
+    width: 300px;
+    margin-top: 20px;
+    background-color: #ffd4e5;
+    border: 2px solid #d6bcc6;
+    padding: 8px;
+    color: #a70000;
+    font-weight: bold;
+}
+#botao:hover{
+    color: white;
+    background-color: #ff99c0;
+    border: 2px solid #ffd4e5;
+}
+
+img{
+    margin-top: 30px;
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid #ffd4e5;
+}

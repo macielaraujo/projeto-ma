@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+:root{
+    --fundopadrao: antiquewhite;
+    --fundoDiv1: #ffffba;
+
+    --bordaDiv1: #ffdfba;
+
+    --corFonte1: #011f4b;
+    --fonteTextoAzul: #03396c;
+
+    --fonteDestaque: 'Kdam Thmor Pro', sans-serif;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--fundopadrao);
+}
+
+header{
+    background: url("../imagem/paredebranca.jpg");
+    background-size: 100%;
+    text-align: center;
+    margin: 0px;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.301);
+}
+
+header h1{
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 2.7em;
+    color: var(--corFonte1);
+    font-family: var(--fonteDestaque);
+}
+header p{
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    font-size: 1.2em;
+    color: var(--fonteTextoAzul);
+}
+
+main{
+    width: 70vw;
+    max-width: 690px;
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.301);
+    background-color: white;
+    
+    
+}
+
+.produto{
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    background-color: var(--fundoDiv1);
+    border: 2px solid var(--bordaDiv1);
+    border-radius: 10px;
+    padding: 10px;
+    
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.8em;
+}
+.produto img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    
+}
+.produto p{
+    margin: 2px;
+    color: #911c1c;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #011f4b;
+    
+}
+footer p{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+}

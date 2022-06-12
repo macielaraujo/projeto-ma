@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:root{
+    --fundopadrao: antiquewhite;
+}
+
+body{
+    background: url("../imagem/brancoKarolina.jpg");
+    background-size: 120vw;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+main{
+    text-align: center;
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: url("../imagem/velaDominika.jpg");
+    background-size: 100%;
+}
+
+#logo{
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 20%;
+    border: 5px solid white;
+}
+
+#botaolink{
+    margin-top: 40%;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid 	#189ad3;
+    background-color: 	#71c7ec;
+    border-radius: 5px;
+}
+
+#botaolink:hover{
+    background-color: #189ad3;
+    color: white;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <input type="text" name="classeProduto" id="classeProduto" placeholder="Classe do Produto">
+
+    <input type="text" name="sabor" id="sabor" placeholder="Sabor do Produto">
+
+    <input type="number" name="preco" id="preco" placeholder="Preço do Produto">
+
+    <select name="desconto" id="desconto">
+        <option value="Sim" >Com desconto</option>
+        <option value="nao"selected>Sem desconto</option>
+    </select>
+
+    <input type="button" value="Cadastrar" onclick="cadastrarProduto()">
+
+    <script src="script.js"></script>
+</body>
+</html>
