@@ -1,0 +1,13 @@
+@media screen and (min-width: 700px){
+
+    main div{
+        width: 70%;
+    }
+
+}
+
+@media screen (min-width: 850px) {
+    main div {
+        width: 20%;
+    }
+}
