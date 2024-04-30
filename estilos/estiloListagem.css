@@ -3,30 +3,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 :root{
-    --fundopadrao: antiquewhite;
-    --fundoDiv1: #ffffba;
+    --p1roxo: #69648C;
+    --p1branco: #EBEBF2;
+    --p1marromMedio: #BF6D4E;
+    --p1marromFraco: #BFAAA3;
+    --p1marromForte: #A66556;
 
-    --bordaDiv1: #ffdfba;
-
-    --corFonte1: #011f4b;
-    --fonteTextoAzul: #03396c;
-
-    --fonteDestaque: 'Kdam Thmor Pro', sans-serif;
+    --p2vinho: #733949;
+    --p2marrom: #592D1D;
+    --p2branco: #F2F2F0;
+    --p2cinza:#666A73;
+    --p2cinzaSuave: #D7D7D9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0px;
-    padding: 0px;
     background-color: var(--fundopadrao);
 }
 
 header{
-    background: url("../imagem/paredebranca.jpg");
-    background-size: 100%;
-    text-align: center;
-    margin: 0px;
-    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.301);
+    width: 100vw;
+}
+header img{
+    width: 100vw;
+    position: static;
+    z-index: 1;
+}
+header div{
+    z-index: 2;
+    background-color: #BFAAA3;
+    position: relative;
+    top: -100%;
 }
 
 #logo{
