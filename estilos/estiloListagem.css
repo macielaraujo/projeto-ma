@@ -28,10 +28,11 @@ body{
 
 header{
     width: 100vw;
+    position: absolute;
 }
 header img{
     width: 100vw;
-    position: static;
+    
     z-index: 1;
 }
 header div{
