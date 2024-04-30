@@ -16,10 +16,11 @@
 
 @media screen and (min-width: 280px){
     main div{
-        width: 95%;
+        width: 90vw;
         height: 70%;
     }
     main img {
         width: 300px;
+        margin: auto;
     }
 }

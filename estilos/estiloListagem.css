@@ -120,13 +120,55 @@ main{
 }
 
 footer{
-    background-color: #011f4b;
+    margin-top: 50px;
+    height: 50vh;
+    background-color: var(--p2vinho);
+    padding: 50px;
+    text-align: center;
+    
     
 }
-footer p{
-    margin-bottom: 0px;
-    margin-top: 30px;
+footer h3{
     color: white;
-    text-align: center;
-    font-size: 0.8em;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 3px var(--p1branco);
 }
+footer div{
+    padding-bottom: 40px;
+}
+footer i{
+    
+    color: white;
+    font-size: 1.6rem;
+    margin: 0 10px;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 1s;
+    
+}
+footer i:hover{
+    
+    box-shadow: 
+                inset 2px -2px 5px var(--p1marromMedio),
+                inset -2px 2px 5px var(--p1marromMedio),
+                1px -1px 3px var(--p1marromMedio),
+                -1px 1px 3px var(--p1marromMedio);
+    color: #739EF4;
+}
+.redeSocial{
+    margin-bottom: 20px;
+}
+footer p{
+    position: relative;
+    color: azure;
+    font-size: .7em;
+    bottom: -30%;
+}
+footer img{
+    width: 80px;
+    
+}
+
