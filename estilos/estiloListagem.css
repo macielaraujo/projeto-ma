@@ -24,22 +24,28 @@
 
 body{
     background-color: var(--fundopadrao);
+    width: 100vw;
+    
 }
 
 header{
-    width: 100vw;
-    position: absolute;
+    width: 98vw;
+    display: flex;
+    
 }
 header img{
     width: 100vw;
-    
     z-index: 1;
 }
 header div{
     z-index: 2;
     background-color: #BFAAA3;
-    position: relative;
-    top: -100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 280px;
+    margin: auto;
 }
 
 #logo{
