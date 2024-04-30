@@ -131,10 +131,11 @@ footer{
 footer h3{
     color: white;
     margin-bottom: 25px;
-    text-shadow: 1px 1px 3px var(--p1branco);
+    
 }
 footer div{
     padding-bottom: 40px;
+    
 }
 footer i{
     
